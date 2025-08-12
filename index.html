@@ -1,0 +1,922 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAMBANO PRO - L'agence qui transforme les idées en expériences, les projets en réalités</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="images/LAMBANO PRO logo.png" alt="LAMBANO PRO" class="logo-image">
+                <h2>LAMBANO PRO</h2>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#accueil" class="nav-link">Accueil</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#a-propos" class="nav-link">À propos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#services" class="nav-link">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#realisations" class="nav-link">Réalisations</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#equipe" class="nav-link">Équipe</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials" class="nav-link">Témoignages</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="nav-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+        <!-- Hero Section - Reorganized Architecture -->
+    <section id="accueil" class="hero" data-aos="fade-in">
+        <!-- Background Layer -->
+        <div class="hero-background">
+            <div class="hero-bg-slider" aria-hidden="true">
+                <picture class="bg-slide active">
+                    <source media="(min-width: 769px)" srcset="images/100.jpg">
+                    <source media="(max-width: 768px)" srcset="images/100.jpg">
+                    <img src="images/100.jpg" alt="" loading="eager">
+                    <div class="slide-overlay"></div>
+                </picture>
+                <picture class="bg-slide">
+                    <source media="(min-width: 769px)" srcset="images/102.jpg">
+                    <source media="(max-width: 768px)" srcset="images/102.jpg">
+                    <img src="images/102.jpg" alt="" loading="lazy">
+                    <div class="slide-overlay"></div>
+                </picture>
+                <picture class="bg-slide">
+                    <source media="(max-width: 768px)" srcset="team-background.jpg">
+                    <img src="team-background.jpg" alt="" loading="lazy">
+                    <div class="slide-overlay"></div>
+                </picture>
+                <picture class="bg-slide">
+                    <source media="(max-width: 768px)" srcset="business-meeting.jpg">
+                    <img src="business-meeting.jpg" alt="" loading="lazy">
+                    <div class="slide-overlay"></div>
+                </picture>
+                <picture class="bg-slide">
+                    <source media="(max-width: 768px)" srcset="event-celebration.jpg">
+                    <img src="event-celebration.jpg" alt="" loading="lazy">
+                    <div class="slide-overlay"></div>
+                </picture>
+            </div>
+        </div>
+
+        <!-- Main Content Container -->
+        <div class="hero-container">
+            <div class="container">
+                <!-- Hero Main Content -->
+                <header class="hero-header">
+                    <div class="hero-content-grid">
+                        <!-- Primary Content -->
+                        <div class="hero-primary">
+                            <div class="hero-badge" data-aos="fade-up" data-aos-delay="200">
+                                <span class="badge-icon" aria-hidden="true">🚀</span>
+                                <span>Agence #1 en Communication</span>
+                            </div>
+                            
+                            <h1 class="hero-title" data-aos="fade-up" data-aos-delay="400">
+                                <span class="title-main">LAMBANO</span>
+                                <span class="title-accent">PRO</span>
+                            </h1>
+                            
+                            <div class="hero-brand-text" data-aos="fade-up" data-aos-delay="500">
+                                LAMBANO PRO
+                            </div>
+                            <p class="hero-description" data-aos="fade-up" data-aos-delay="600">
+                                L'agence qui transforme les idées en expériences, les projets en réalités. 
+                                Un projet, une idée, une ambition ? Parlons-en
+                            </p>
+                            
+                            <p class="hero-tagline" data-aos="fade-up" data-aos-delay="700">
+                                Un projet, une idée, une ambition ? Parlons-en
+                            </p>
+                            
+                            <!-- Call to Actions -->
+                            <div class="hero-actions" data-aos="fade-up" data-aos-delay="800">
+                                <a href="#contact" class="btn btn-primary" role="button">
+                                    <span>Travaillons ensemble</span>
+                                    <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                                </a>
+                                <a href="#services" class="btn btn-secondary" role="button">
+                                    <span>Découvrir</span>
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <!-- Secondary Content -->
+                        <aside class="hero-secondary">
+                            <!-- Team Preview -->
+                            <div class="hero-team-preview" data-aos="fade-left" data-aos-delay="900">
+                                <h2 class="sr-only">Notre équipe</h2>
+                                <div class="team-avatars">
+                                    <div class="avatar-group">
+                                        <img src="images/1.jpg" alt="Yasmine - Fondatrice" class="team-avatar">
+                                        <img src="images/2.jpg" alt="David - Chef de Projet" class="team-avatar">
+                                        <img src="images/pic 3.jpg" alt="Marc - Événementiel" class="team-avatar">
+                                        <span class="team-count">+2</span>
+                                    </div>
+                                    <div class="team-info">
+                                        <span class="team-label">Équipe experte</span>
+                                        <span class="team-desc">11 ans d'expérience</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Key Services Icons -->
+                            <div class="hero-services-preview" data-aos="fade-left" data-aos-delay="1000">
+                                <div class="service-icon" title="Communication">
+                                    <i class="fas fa-bullhorn" aria-hidden="true"></i>
+                                </div>
+                                <div class="service-icon" title="Événementiel">
+                                    <i class="fas fa-calendar-star" aria-hidden="true"></i>
+                                </div>
+                                <div class="service-icon" title="Stratégie Digital">
+                                    <i class="fas fa-rocket" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </aside>
+                    </div>
+                </header>
+                
+                <!-- Stats Section -->
+                <section class="hero-stats" data-aos="fade-up" data-aos-delay="1100" aria-label="Nos statistiques">
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <span class="stat-number" data-count="11" aria-label="11 années">11</span>
+                            <span class="stat-label">ans d'expérience</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-count="4" aria-label="4 pays">4</span>
+                            <span class="stat-label">pays</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-count="100" aria-label="100 projets">100+</span>
+                            <span class="stat-label">projets réalisés</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-count="50" aria-label="50 clients">50+</span>
+                            <span class="stat-label">clients satisfaits</span>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+        
+        <!-- Navigation Controls -->
+        <div class="hero-controls" aria-label="Navigation du slider">
+            <button class="slider-prev" aria-label="Image précédente">
+                <i class="fas fa-chevron-left" aria-hidden="true"></i>
+            </button>
+            <div class="slider-indicators">
+                <button class="slider-dot active" data-slide="0" aria-label="Image 100"></button>
+                <button class="slider-dot" data-slide="1" aria-label="Image 102"></button>
+                <button class="slider-dot" data-slide="2" aria-label="Image équipe"></button>
+                <button class="slider-dot" data-slide="3" aria-label="Réunion d'affaires"></button>
+                <button class="slider-dot" data-slide="4" aria-label="Célébration événement"></button>
+            </div>
+            <button class="slider-next" aria-label="Image suivante">
+                <i class="fas fa-chevron-right" aria-hidden="true"></i>
+            </button>
+        </div>
+
+        <!-- Scroll Indicator -->
+        <div class="scroll-indicator" data-aos="fade-in" data-aos-delay="1300">
+            <button class="scroll-btn" aria-label="Défiler vers le bas" onclick="document.querySelector('#a-propos').scrollIntoView({behavior: 'smooth'})">
+                <i class="fas fa-chevron-down" aria-hidden="true"></i>
+                <span class="scroll-text">Découvrir</span>
+            </button>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="a-propos" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Notre mission, notre vision</h2>
+                <div class="section-underline"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-description">
+                        Fondée par <strong>Yasmine Koukoui</strong>, LAMBANO PRO est une agence panafricaine spécialisée en communication institutionnelle, organisation d'événements et développement social. Basée à Lomé, nous accompagnons les institutions publiques, les ONG et les entreprises dans la conception et la mise en œuvre de projets à fort impact.
+                    </p>
+                    <div class="values">
+                        <h3>Nos valeurs</h3>
+                        <div class="values-grid">
+                            <div class="value-item">
+                                <i class="fas fa-trophy"></i>
+                                <span>Excellence</span>
+                            </div>
+                            <div class="value-item">
+                                <i class="fas fa-lightbulb"></i>
+                                <span>Innovation</span>
+                            </div>
+                            <div class="value-item">
+                                <i class="fas fa-heart"></i>
+                                <span>Engagement communautaire</span>
+                            </div>
+                            <div class="value-item">
+                                <i class="fas fa-handshake"></i>
+                                <span>Collaboration</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-cta">
+                        <a href="#services" class="savoir-plus-button">
+                            <span>SAVOIR PLUS +</span>
+                            <i class="fas fa-plus"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-calendar"></i>
+                        </div>
+                        <div class="stat-info">
+                            <span class="stat-number">11</span>
+                            <span class="stat-label">ans d'expérience</span>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-building"></i>
+                        </div>
+                        <div class="stat-info">
+                            <span class="stat-number">6</span>
+                            <span class="stat-label">agences fondées</span>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-globe-africa"></i>
+                        </div>
+                        <div class="stat-info">
+                            <span class="stat-number">4</span>
+                            <span class="stat-label">pays</span>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div class="stat-info">
+                            <span class="stat-number">100</span>
+                            <span class="stat-label">collaborateurs mobilisés</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nos services</h2>
+                <p class="section-subtitle">
+                    Chez LAMBANO PRO, nous mettons notre expertise au service des institutions, entreprises et organisations engagées. Nos prestations couvrent l'ensemble des besoins en communication stratégique, événementiel et mobilisation sociale.
+                </p>
+                <div class="section-underline"></div>
+            </div>
+            
+            <!-- Interactive Service Tabs -->
+            <div class="services-tabs">
+                <div class="tab-buttons">
+                    <button class="tab-btn active" data-tab="communication">
+                        <i class="fas fa-bullhorn"></i>
+                        <span>Communication</span>
+                    </button>
+                    <button class="tab-btn" data-tab="events">
+                        <i class="fas fa-calendar-alt"></i>
+                        <span>Événementiel</span>
+                    </button>
+                    <button class="tab-btn" data-tab="community">
+                        <i class="fas fa-users"></i>
+                        <span>Mobilisation</span>
+                    </button>
+                    <button class="tab-btn" data-tab="branding">
+                        <i class="fas fa-palette"></i>
+                        <span>Branding</span>
+                    </button>
+                    <button class="tab-btn" data-tab="content">
+                        <i class="fas fa-video"></i>
+                        <span>Contenus</span>
+                    </button>
+                    <button class="tab-btn" data-tab="consulting">
+                        <i class="fas fa-lightbulb"></i>
+                        <span>Conseil</span>
+                    </button>
+                </div>
+                
+                <div class="tab-content">
+                    <!-- Communication institutionnelle -->
+                    <div class="tab-panel active" id="communication">
+                        <div class="service-content-wrapper">
+                            <div class="service-text">
+                                <h3>Communication institutionnelle</h3>
+                                <p class="service-description">
+                                    Nous accompagnons les acteurs publics et privés dans la conception et la mise en œuvre de stratégies de communication adaptées à leurs enjeux.
+                                </p>
+                                <a href="services.html" class="service-link">
+                                    <span>En savoir plus</span>
+                                    <i class="fas fa-arrow-right"></i>
+                                </a>
+                                <div class="service-features">
+                                    <h4>Prestations :</h4>
+                                    <ul class="feature-list">
+                                        <li><i class="fas fa-check-circle"></i> Audit et diagnostic de communication</li>
+                                        <li><i class="fas fa-check-circle"></i> Élaboration de plans stratégiques</li>
+                                        <li><i class="fas fa-check-circle"></i> Création de supports institutionnels (rapports, brochures, vidéos)</li>
+                                        <li><i class="fas fa-check-circle"></i> Relations presse et gestion de l'image</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="service-visual">
+                                <div class="visual-card">
+                                    <i class="fas fa-bullhorn"></i>
+                                    <div class="card-glow"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Événementiel stratégique -->
+                    <div class="tab-panel" id="events">
+                        <div class="service-content-wrapper">
+                            <div class="service-text">
+                                <h3>Événementiel stratégique</h3>
+                                <p class="service-description">
+                                    De la conception à la coordination, nous organisons des événements à forte valeur ajoutée, en cohérence avec vos objectifs.
+                                </p>
+                                <a href="services.html" class="service-link">
+                                    <span>En savoir plus</span>
+                                    <i class="fas fa-arrow-right"></i>
+                                </a>
+                                <div class="service-features">
+                                    <h4>Types d'événements :</h4>
+                                    <ul class="feature-list">
+                                        <li><i class="fas fa-check-circle"></i> Forums et conférences</li>
+                                        <li><i class="fas fa-check-circle"></i> Salons professionnels</li>
+                                        <li><i class="fas fa-check-circle"></i> Lancements de projets</li>
+                                        <li><i class="fas fa-check-circle"></i> Cérémonies officielles</li>
+                                        <li><i class="fas fa-check-circle"></i> Activations de marque</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="service-visual">
+                                <div class="visual-card">
+                                    <i class="fas fa-calendar-alt"></i>
+                                    <div class="card-glow"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Mobilisation communautaire -->
+                    <div class="tab-panel" id="community">
+                        <div class="service-content-wrapper">
+                            <div class="service-text">
+                                <h3>Mobilisation communautaire</h3>
+                                <p class="service-description">
+                                    Nous développons des campagnes de sensibilisation et des programmes participatifs pour renforcer l'engagement citoyen et communautaire.
+                                </p>
+                                <a href="services.html" class="service-link">
+                                    <span>En savoir plus</span>
+                                    <i class="fas fa-arrow-right"></i>
+                                </a>
+                                <div class="service-features">
+                                    <h4>Actions possibles :</h4>
+                                    <ul class="feature-list">
+                                        <li><i class="fas fa-check-circle"></i> Campagnes de terrain et digitales</li>
+                                        <li><i class="fas fa-check-circle"></i> Ateliers participatifs</li>
+                                        <li><i class="fas fa-check-circle"></i> Formations et animations</li>
+                                        <li><i class="fas fa-check-circle"></i> Création de contenus éducatifs</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="service-visual">
+                                <div class="visual-card">
+                                    <i class="fas fa-users"></i>
+                                    <div class="card-glow"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Identité visuelle & branding -->
+                    <div class="tab-panel" id="branding">
+                        <div class="service-content-wrapper">
+                            <div class="service-text">
+                                <h3>Identité visuelle & branding</h3>
+                                <p class="service-description">
+                                    Nous construisons des identités de marque cohérentes, modernes et porteuses de sens.
+                                </p>
+                                <a href="services.html" class="service-link">
+                                    <span>En savoir plus</span>
+                                    <i class="fas fa-arrow-right"></i>
+                                </a>
+                                <div class="service-features">
+                                    <h4>Prestations :</h4>
+                                    <ul class="feature-list">
+                                        <li><i class="fas fa-check-circle"></i> Création de logos et chartes graphiques</li>
+                                        <li><i class="fas fa-check-circle"></i> Conception de supports de communication</li>
+                                        <li><i class="fas fa-check-circle"></i> Rebranding et repositionnement stratégique</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="service-visual">
+                                <div class="visual-card">
+                                    <i class="fas fa-palette"></i>
+                                    <div class="card-glow"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Production de contenus -->
+                    <div class="tab-panel" id="content">
+                        <div class="service-content-wrapper">
+                            <div class="service-text">
+                                <h3>Production de contenus</h3>
+                                <p class="service-description">
+                                    Nous produisons des contenus multimédias engageants pour valoriser vos projets et toucher vos publics.
+                                </p>
+                                <a href="services.html" class="service-link">
+                                    <span>En savoir plus</span>
+                                    <i class="fas fa-arrow-right"></i>
+                                </a>
+                                <div class="service-features">
+                                    <h4>Supports :</h4>
+                                    <ul class="feature-list">
+                                        <li><i class="fas fa-check-circle"></i> Vidéos institutionnelles et documentaires</li>
+                                        <li><i class="fas fa-check-circle"></i> Capsules pour les réseaux sociaux</li>
+                                        <li><i class="fas fa-check-circle"></i> Podcasts et interviews</li>
+                                        <li><i class="fas fa-check-circle"></i> Infographies et animations</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="service-visual">
+                                <div class="visual-card">
+                                    <i class="fas fa-video"></i>
+                                    <div class="card-glow"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Conseil stratégique -->
+                    <div class="tab-panel" id="consulting">
+                        <div class="service-content-wrapper">
+                            <div class="service-text">
+                                <h3>Conseil stratégique</h3>
+                                <p class="service-description">
+                                    Nous intervenons en amont pour vous aider à définir vos orientations, structurer vos messages et anticiper les risques.
+                                </p>
+                                <a href="services.html" class="service-link">
+                                    <span>En savoir plus</span>
+                                    <i class="fas fa-arrow-right"></i>
+                                </a>
+                                <div class="service-features">
+                                    <h4>Expertises :</h4>
+                                    <ul class="feature-list">
+                                        <li><i class="fas fa-check-circle"></i> Positionnement et storytelling</li>
+                                        <li><i class="fas fa-check-circle"></i> Communication de crise</li>
+                                        <li><i class="fas fa-check-circle"></i> Veille et analyse d'impact</li>
+                                        <li><i class="fas fa-check-circle"></i> Coaching en prise de parole</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="service-visual">
+                                <div class="visual-card">
+                                    <i class="fas fa-lightbulb"></i>
+                                    <div class="card-glow"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <!-- Realizations Section -->
+    <section id="realisations" class="realizations">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nos projets phares</h2>
+                <div class="section-underline"></div>
+            </div>
+            
+            <!-- Portfolio Gallery -->
+            <div class="portfolio-gallery">
+                <div class="gallery-filters">
+                    <button class="filter-btn active" data-filter="all">Tous</button>
+                    <button class="filter-btn" data-filter="events">Événements</button>
+                    <button class="filter-btn" data-filter="communication">Communication</button>
+                    <button class="filter-btn" data-filter="development">Développement</button>
+                </div>
+                
+                <div class="gallery-grid">
+                    <div class="gallery-item" data-category="events">
+                        <div class="gallery-image">
+                            <img src="images/branding-workshop.jpg" alt="Salon Technologies Agricoles">
+                            <div class="gallery-overlay">
+                                <div class="gallery-content">
+                                    <h3>Salon des Technologies Agricoles 2024</h3>
+                                    <p>Organisé en partenariat avec FRSRP & CORAF</p>
+                                    <div class="gallery-icon">
+                                        <i class="fas fa-seedling"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item" data-category="communication">
+                        <div class="gallery-image">
+                            <img src="images/award-ceremony.jpg" alt="Recensement Agricole">
+                            <div class="gallery-overlay">
+                                <div class="gallery-content">
+                                    <h3>Recensement Agricole National 2025</h3>
+                                    <p>Campagne nationale de recensement</p>
+                                    <div class="gallery-icon">
+                                        <i class="fas fa-chart-bar"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item" data-category="events">
+                        <div class="gallery-image">
+                            <img src="images/journee d.jpg" alt="Journée Eau">
+                            <div class="gallery-overlay">
+                                <div class="gallery-content">
+                                    <h3>Journée Internationale de l'Eau</h3>
+                                    <p>En collaboration avec GIZ</p>
+                                    <div class="gallery-icon">
+                                        <i class="fas fa-tint"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item" data-category="development">
+                        <div class="gallery-image">
+                            <img src="images/sante1.jpg" alt="Santé Maternelle">
+                            <div class="gallery-overlay">
+                                <div class="gallery-content">
+                                    <h3>Programmes de santé maternelle</h3>
+                                    <p>En milieu rural</p>
+                                    <div class="gallery-icon">
+                                        <i class="fas fa-baby"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item" data-category="communication">
+                        <div class="gallery-image">
+                            <img src="images/compagn com.jpeg" alt="Campagne Communication">
+                            <div class="gallery-overlay">
+                                <div class="gallery-content">
+                                    <h3>Campagne de Communication Nationale</h3>
+                                    <p>Sensibilisation et engagement communautaire</p>
+                                    <div class="gallery-icon">
+                                        <i class="fas fa-bullhorn"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item" data-category="events">
+                        <div class="gallery-image">
+                            <img src="images/conference-event.jpg" alt="Conférence Internationale">
+                            <div class="gallery-overlay">
+                                <div class="gallery-content">
+                                    <h3>Conférence Internationale</h3>
+                                    <p>Organisation et protocole événementiel</p>
+                                    <div class="gallery-icon">
+                                        <i class="fas fa-calendar-alt"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="equipe" class="team">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Les visages de LAMBANO PRO</h2>
+                <div class="section-underline"></div>
+            </div>
+            <div class="team-quote">
+                <blockquote>
+                    "Chez LAMBANO PRO, chaque membre est un acteur du changement."
+                </blockquote>
+            </div>
+            <div class="team-grid">
+                <div class="team-member">
+                    <div class="member-image">
+                        <div class="member-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Yasmine Koukoui</h3>
+                        <p class="member-role">Fondatrice & Directrice</p>
+                        <p class="member-bio">Experte en communication institutionnelle avec plus de 11 ans d'expérience dans le développement de projets à impact social.</p>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <div class="member-image">
+                        <div class="member-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Chef de Projet Événementiel</h3>
+                        <p class="member-role">Spécialiste Événements</p>
+                        <p class="member-bio">Expert en organisation d'événements internationaux et gestion de protocole.</p>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <div class="member-image">
+                        <div class="member-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Responsable Communication</h3>
+                        <p class="member-role">Stratège Communication</p>
+                        <p class="member-bio">Spécialisé dans les campagnes de communication institutionnelle et relations publiques.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Ils nous font confiance</h2>
+                <div class="section-underline"></div>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"LAMBANO PRO a su transformer notre vision en une campagne nationale réussie."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <strong>Ministère de l'Agriculture</strong>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"Une équipe réactive, créative et profondément engagée."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <strong>Partenaire GIZ</strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Contactez-nous</h2>
+                <div class="section-underline"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-form">
+                    <form id="contactForm" action="https://script.google.com/macros/s/AKfycbwDOXofVRg5p_4XZar6VzE7QGxH3myCw5RN8QiaooyprKwAQAQqJRqZfOX3aOJn_PEFfg/exec" method="POST">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" required>
+                            <label for="name">Nom</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="organization" name="organization" required>
+                            <label for="organization">Organisation</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" required>
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" required>
+                            <label for="subject">Objet</label>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                            <label for="message">Message</label>
+                        </div>
+                        <button type="submit" class="submit-btn">Envoyer le message</button>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Adresses</h4>
+                            <p>Lomé, Togo<br>Cotonou, Bénin</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Téléphone</h4>
+                            <p>+229 564 617 08</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>ykoukoui@ymail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-globe"></i>
+                        <div>
+                            <h4>Site web</h4>
+                            <p>www.lambanopro.com</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-main">
+        <div class="container">
+                <div class="footer-grid">
+                    <!-- Company Info -->
+                    <div class="footer-section footer-brand">
+                        <div class="brand-logo">
+                            <h2>LAMBANO PRO</h2>
+                            <div class="brand-accent"></div>
+                        </div>
+                        <p class="brand-description">
+                            L'agence qui transforme les idées en expériences, les projets en réalités.
+                        </p>
+                        <p class="brand-tagline">Une vision, une voix, un impact</p>
+                        
+                        <!-- Social Media -->
+                        <div class="social-links">
+                            <h4>Suivez-nous</h4>
+                            <div class="social-icons">
+                                <a href="#" class="social-icon" aria-label="LinkedIn">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                                <a href="#" class="social-icon" aria-label="Facebook">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="#" class="social-icon" aria-label="Instagram">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a href="#" class="social-icon" aria-label="YouTube">
+                                    <i class="fab fa-youtube"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Navigation Links -->
+                    <div class="footer-section footer-nav">
+                        <h3>Navigation</h3>
+                        <ul class="nav-list">
+                            <li><a href="#accueil">Accueil</a></li>
+                            <li><a href="#a-propos">À propos</a></li>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="#realisations">Réalisations</a></li>
+                            <li><a href="#equipe">Équipe</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Services -->
+                    <div class="footer-section footer-services">
+                        <h3>Nos Services</h3>
+                        <ul class="services-list">
+                            <li>Communication institutionnelle</li>
+                            <li>Événementiel stratégique</li>
+                            <li>Mobilisation communautaire</li>
+                            <li>Identité visuelle & branding</li>
+                            <li>Production de contenus</li>
+                            <li>Conseil stratégique</li>
+                        </ul>
+                    </div>
+
+                    <!-- Contact Information -->
+                    <div class="footer-section footer-contact">
+                        <h3>Nous contacter</h3>
+                        
+                        <div class="contact-group">
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div class="contact-details">
+                                    <h5>Adresse principale</h5>
+                                    <p>Boulevard de la Paix, zone de l'aéroport<br>Quartier Supertacco, Lomé, Togo</p>
+                                </div>
+                            </div>
+
+                            <div class="contact-locations-grid">
+                                <div class="location-card">
+                                    <h5>Togo (siège)</h5>
+                                    <div class="location-contacts">
+                                        <a href="tel:+22898591818" class="contact-link">
+                                            <i class="fas fa-phone"></i>
+                                            <span>+228 98591818</span>
+                                        </a>
+                                        <a href="https://wa.me/22893822003" class="contact-link whatsapp">
+                                            <i class="fab fa-whatsapp"></i>
+                                            <span>+228 93822003</span>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="location-card">
+                                    <h5>RDC (Congo)</h5>
+                                    <div class="location-contacts">
+                                        <a href="tel:+243831700110" class="contact-link">
+                                            <i class="fas fa-phone"></i>
+                                            <span>+243 831700110</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Bottom -->
+            <div class="footer-bottom">
+            <div class="container">
+                <div class="footer-bottom-content">
+                    <div class="copyright">
+                <p>&copy; 2024 LAMBANO PRO. Tous droits réservés.</p>
+                    </div>
+                    <div class="footer-legal">
+                        <a href="#">Politique de confidentialité</a>
+                        <span class="separator">•</span>
+                        <a href="#">Mentions légales</a>
+                        <span class="separator">•</span>
+                        <a href="#">CGU</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
